@@ -1,0 +1,75 @@
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<TextView
+	android:id="@+id/unitName" 
+		android:layout_width="0dp"
+		android:layout_height="wrap_content" 
+		android:layout_weight="1"
+		android:text="UnitName"/>
+
+	<TextView
+		android:id="@+id/abb" 
+		android:layout_width="0dp"
+		android:layout_height="wrap_content" 
+		android:layout_weight="2"
+		android:text="Abberviation"/>
+
+	<TextView
+	    android:id="@+id/size"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="CommonSize" />
+
+</LinearLayout> -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/tableLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+   <TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="2dip" >
+       <TextView
+		android:id="@+id/prodName" 
+		android:layout_width="0dp"
+		android:layout_height="wrap_content" 
+		android:layout_weight="1"
+		android:text="UnitName"/>
+	</TableRow>
+	<TableRow
+      android:id="@+id/tableRow2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="2dip" >
+	      <TextView
+			android:id="@+id/amount" 
+			android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"
+			android:text="amount"/>
+	     <TextView
+		    android:id="@+id/abb"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="abb" />    
+	    <TextView
+		    android:id="@+id/prodPHE"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="PHE" />  
+	    <TextView
+		    android:id="@+id/text"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="PHE" />  
+		    
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PKU</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Meals</string>
+    <string name="title_section3">Products</string>
+    <string name="title_section4">Setting</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="title_activity_meal">Meals</string>
+    <string name="title_activity_product">Products</string>
+    <string name="title_activity_add_product">Add Your Product</string>
+    <string name="title_activity_add_unit">Add Your Unit</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_unit">Unit</string>
+    <string name="title_activity_add_category">AddCategoryActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_detail_product">DetailProductActivity</string>
+    <string name="title_activity_add_meal">AddMealActivity</string>
+    <string name="title_activity_info">Daily PHE Setting</string>
+    <string name="title_activity_catalog">Products</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_product_menu">ProductMenuActivity</string>
+    <string name="title_activity_add_log_product">AddLogProductActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail_meal">DetailMealActivity</string>
+    <string name="title_activity_meal_menu">MealMenuActivity</string>
+    <string name="title_activity_add_log_meal">AddLogMealActivity</string>
+    <string name="title_activity_edit_log">EditLogActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_demo">Demo Activity Screen</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+
+</resources>

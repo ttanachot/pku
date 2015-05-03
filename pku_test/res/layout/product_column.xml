@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" 
+    android:paddingBottom="3dp"
+    >
+  			 <TextView
+	          android:id="@+id/prodName"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content" 
+	          android:text="ProductName"
+	          android:textAppearance="?android:attr/textAppearanceLarge" />
+  		  <TextView
+		      android:id="@+id/commonSize"
+		      android:layout_width="wrap_content"
+        	  android:layout_height="wrap_content"
+        	  android:layout_below="@+id/prodName"
+		      android:text="size" />
+
+	      <TextView
+	          android:id="@+id/abberviation"
+	          android:layout_width="wrap_content"
+	          android:layout_height="match_parent"
+	          android:layout_alignBottom="@+id/commonSize"
+	          android:layout_below="@+id/prodName"
+	          android:layout_toRightOf="@+id/commonSize"
+	          android:text="abb" />
+
+	     	<TextView
+	     	    android:id="@+id/txt"
+	     	    android:layout_width="wrap_content"
+	     	    android:layout_height="match_parent"
+	     	    android:layout_alignBottom="@+id/prodPHE"
+	     	    android:layout_below="@+id/prodName"
+	     	    android:layout_toRightOf="@+id/abberviation"
+	     	    android:text=" / " />
+
+	       <TextView
+	           android:id="@+id/prodPHE"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_below="@+id/prodName"
+	           android:text="amount" 
+	           android:layout_toRightOf="@+id/txt"
+	       />
+
+	       <TextView
+	           android:id="@+id/textView2"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_below="@+id/prodName"
+	           android:layout_toRightOf="@+id/prodPHE"
+	           android:text="PHE" />
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pku_test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pku_test.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pku_test.MealActivity"
+            android:label="@string/title_activity_meal" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.ProductActivity"
+            android:label="@string/title_activity_product" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AddProductActivity"
+            android:label="@string/title_activity_add_product" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AddUnitActivity"
+            android:label="@string/title_activity_add_unit" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.UnitActivity"
+            android:label="@string/title_activity_unit" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AddCategoryActivity"
+            android:label="@string/title_activity_add_category" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.CategoryActivity"
+            android:label="@string/title_activity_category" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.DetailProductActivity"
+            android:label="@string/title_activity_detail_product" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AddMealActivity"
+            android:label="@string/title_activity_add_meal" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.CatalogActivity"
+            android:label="@string/title_activity_catalog" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.ProductMenuActivity"
+            android:label="@string/title_activity_product_menu" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AddLogProductActivity"
+            android:label="@string/title_activity_add_log_product" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.DetailMealActivity"
+            android:label="@string/title_activity_detail_meal" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.MealMenuActivity"
+            android:label="@string/title_activity_meal_menu" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AddLogMealActivity"
+            android:label="@string/title_activity_add_log_meal" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.EditLogActivity"
+            android:label="@string/title_activity_edit_log" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.HistoryActivity"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name="com.example.pku_test.DemoActivity"
+            android:label="@string/title_activity_demo"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="com.example.pku_test.demoactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pku_test.AlarmActivity"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+    </application>
+
+</manifest>
